@@ -239,7 +239,7 @@ class P1204BitstreamMode3:
 
         self.display_res = display_res
 
-        check_or_install_videoparser()
+        #check_or_install_videoparser()
         os.makedirs(temporary_folder, exist_ok=True)
 
         feature_cache = os.path.join(
